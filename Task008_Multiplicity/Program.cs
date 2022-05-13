@@ -5,10 +5,10 @@ int b = int.Parse(Console.ReadLine());
 int rem = 1;
 if(a % b == 0)
 {
-    Console.WriteLine($"{b} кратно {a}");
+    Console.WriteLine($"{a} кратно {b}");
 }
 else
 {
     rem = a % b;
-    Console.WriteLine($"{b} не кратно {a}. Остаток от деления {rem}");
+    Console.WriteLine($"{a} не кратно {b}. Остаток от деления {rem}");
 }
